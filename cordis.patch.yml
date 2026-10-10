@@ -1,0 +1,13 @@
+# ============================================================================
+# dsh-main-session —— DSH bundle patch
+# ============================================================================
+# 挂载声明。安装后把 dsh-main-session 插入 web profile 的配置树,
+# 与 dsh-whale-widget / dsh-meme 同一层。
+#
+# 安装方式:
+#   dsh plugin --profile web add link:<你的插件目录>\dsh-main-session
+# ============================================================================
+
+- insert:
+    - id: dsh-main-session
+      name: dsh-main-session

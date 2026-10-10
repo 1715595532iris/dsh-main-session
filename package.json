@@ -1,0 +1,31 @@
+{
+  "name": "dsh-main-session",
+  "version": "0.1.0",
+  "description": "DSH Web 主会话插件：固定一个长期主会话，每次打开/刷新页面自动进入，并在进入时按当前时段触发一次真实模型问候（可选附带贴题表情）。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "main-session",
+    "greeting",
+    "web"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "private": false
+}

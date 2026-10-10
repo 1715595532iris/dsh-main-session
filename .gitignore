@@ -1,0 +1,18 @@
+# --- DSH / plugin runtime ---
+node_modules/
+.pnpm-store/
+
+# --- local backups & scratch (never publish) ---
+*.bak
+*.bak-*
+*.orig
+*.rej
+*.log
+*.tmp
+
+# --- editor / OS ---
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
